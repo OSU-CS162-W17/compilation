@@ -1,0 +1,6 @@
+# This is a special file that specifically excludes things from our git
+# repo.  In this case, we do not want to include object files or our
+# executable into the git repo, only source code.
+
+*.o
+compute_areas
